@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .d-flex.d-md-flex.justify-content-end.align-items-end.justify-content-md-end.align-items-md-end {
+    overflow-x: hidden;
+    position: absolute;
+    left: 40%;
+    height: 100vh;
+    max-width: 35%;
+  }
+}
+
+.d-flex.d-md-flex.justify-content-end.align-items-end.justify-content-md-end.align-items-md-end {
+  overflow-x: hidden;
+  position: absolute;
+  left: 40%;
+  height: 100vh;
+}
+
