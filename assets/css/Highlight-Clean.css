@@ -57,3 +57,19 @@
   color: #fff;
 }
 
+.Skills {
+  background: #e8e3e4;
+  color: #0e0e0e;
+  padding: 6px;
+  border-radius: 2px;
+  margin: 1px;
+}
+
+.Skills:hover {
+  background: #3d3d3d;
+  color: #ff8a00;
+  padding: 6px;
+  border-radius: 2px;
+  margin: 1px;
+}
+
