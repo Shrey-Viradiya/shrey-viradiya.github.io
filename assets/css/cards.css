@@ -1,0 +1,14 @@
+.rounded-circle {
+  /*border-radius: 50%!important;*/
+}
+
+.coursecard {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.coursera-image {
+  height: auto;
+  margin: 60px;
+}
+
