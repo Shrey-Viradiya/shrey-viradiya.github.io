@@ -24,3 +24,12 @@
   border-radius: 50px;
 }
 
+.github-card {
+  font-family: 'ABeeZee';
+}
+
+.repo-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
