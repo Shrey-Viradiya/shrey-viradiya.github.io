@@ -2,6 +2,13 @@
   /*border-radius: 50%!important;*/
 }
 
+.coursecard:hover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 50px;
+}
+
 .coursecard {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -10,5 +17,10 @@
 .coursera-image {
   height: auto;
   margin: 60px;
+}
+
+.repocard:hover {
+  background: rgba(255,255,255,0.05);
+  border-radius: 50px;
 }
 
