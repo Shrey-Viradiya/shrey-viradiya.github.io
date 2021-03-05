@@ -1,6 +1,6 @@
 backend: # Set up your backend
   name: github
-  repo: Shrey-Viradiya/ShreyPortfolioBlog
+  repo: Shrey-Viradiya/shrey-viradiya.github.io
 
 local_backend: true # Optional if you want to use the local proxy mode
 
