@@ -1,0 +1,23 @@
+name: Shrey Viradiya
+bio: >
+  I am pursuing Bachelor of Technology in Computer Science & Engineering at
+  Institute of Technology, Nirma University. I will be joining Goldman Sachs
+  Engineering Division at Bengaluru as a Summer Analyst.
+
+  I love Machine Learning and Deep Learning.
+featured: true
+avatar: ./avatars/Shrey-Viradiya.jpg
+social:
+  - url: https://twitter.com/ShreyViradiya
+  - url: https://github.com/Shrey-Viradiya
+  - url: https://www.instagram.com/viradiyashrey/
+  - url: https://www.linkedin.com/in/shrey-viradiya/
+education:
+  - institution: Institute of Technology, Nirma University
+    stream: Bachelor of Technology in Computer Science and Engineering
+    year: 2018-2022
+    score: 9.27
+  - institution: P. P. Savani High School
+    stream: 11-12 Mathematics, Physics and Chemistry
+    year: 2016-2018
+    score: 92.46
