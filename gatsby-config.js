@@ -58,5 +58,10 @@ module.exports = {
       options: {
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+      },
+    },
   ],
 };
