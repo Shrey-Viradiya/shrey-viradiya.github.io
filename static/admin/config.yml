@@ -1,6 +1,8 @@
 backend: # Set up your backend
   name: github
   repo: Shrey-Viradiya/shrey-viradiya.github.io
+  branch: master
+  site_domain: vigilant-chandrasekhar-01f1c0.netlify.com
 
 local_backend: true # Optional if you want to use the local proxy mode
 
