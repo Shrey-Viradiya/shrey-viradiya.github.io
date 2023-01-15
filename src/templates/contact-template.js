@@ -17,105 +17,12 @@ const ContactTemplate = ({ data }) => {
     <Layout title={frontmatter.title}>
       <ContactWrapper>
         <ContactCopy dangerouslySetInnerHTML={{ __html: html }} />
-        <ContactForm />
       </ContactWrapper>
     </Layout>
   );
 };
 
 export default ContactTemplate;
-
-const ContactForm = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const netlify = useNetlifyForm({
-    name: "Contact",
-    action: "/thanks",
-    honeypotName: "bot-field",
-  });
-  const onSubmit = (data) => {
-    netlify.handleSubmit(null, data);
-  };
-
-  return (
-    <FormWrapper>
-      <NetlifyFormProvider {...netlify}>
-        <NetlifyFormComponent onSubmit={handleSubmit(onSubmit)}>
-          <Honeypot />
-
-          <FormGroup>
-            <label htmlFor="name">Name</label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              {...register("name", { required: "Name is required" })}
-            />
-            <div css={{ height: "1rem" }}>
-              {errors.name && (
-                <FormErrorMessage>{errors.name.message}</FormErrorMessage>
-              )}
-            </div>
-          </FormGroup>
-
-          <FormGroup>
-            <label htmlFor="email">Email</label>
-            <input
-              id="email"
-              name="email"
-              type="text"
-              {...register("email", {
-                required: "Email is required.",
-                pattern: {
-                  message: "Email is not valid.",
-                  value: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
-                },
-              })}
-            />
-            <div css={{ height: "1rem" }}>
-              {errors.email && (
-                <FormErrorMessage>{errors.email.message}</FormErrorMessage>
-              )}
-            </div>
-          </FormGroup>
-
-          <FormGroup>
-            <label htmlFor="message">Your message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              {...register("message", { required: "Message is required" })}
-            />
-            <div css={{ height: "1rem" }}>
-              {errors.message && (
-                <FormErrorMessage>{errors.message.message}</FormErrorMessage>
-              )}
-            </div>
-          </FormGroup>
-
-          <FormFeedbackWrapper>
-            {netlify.success && (
-              <FormSuccessFeedback>
-                Message sent successfully
-              </FormSuccessFeedback>
-            )}
-            {netlify.error && (
-              <FormErrorFeedback>
-                Something went wrong, please try again.
-              </FormErrorFeedback>
-            )}
-          </FormFeedbackWrapper>
-
-          <FormButton type="submit">Send Message</FormButton>
-        </NetlifyFormComponent>
-      </NetlifyFormProvider>
-    </FormWrapper>
-  );
-};
 
 const ContactWrapper = styled.div`
   display: flex;

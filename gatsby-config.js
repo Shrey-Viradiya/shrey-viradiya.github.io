@@ -1,28 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `Shrey Viradiya`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `Shrey Viradiya`,
+      summary: `Introduction Summary`,
     },
     openGraphImage: `open-graph-image.png`,
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
+    description: `Shrey Viradiya Blog`,
+    siteUrl: `https://shrey-viradiya.github.io/`,
     social: {
-      twitter: `yinkakun`,
+      twitter: `ShreyViradiya`,
     },
     socialLinks: [
       {
         name: "github",
-        url: "https://github.com",
+        url: "https://github.com/Shrey-Viradiya",
       },
       {
         name: "twitter",
-        url: "https://twitter.com",
+        url: "https://twitter.com/ShreyViradiya",
       },
       {
         name: "instagram",
-        url: "https://instagram.com",
+        url: "https://www.instagram.com/viradiyashrey/",
       },
     ],
   },

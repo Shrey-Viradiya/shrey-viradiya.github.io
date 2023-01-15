@@ -3,6 +3,6 @@ template: "index-template"
 title: "Gatsby Starter Glass"
 ---
 
-# Hello World
+# Hello Human
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+So great of you to land on this page.
