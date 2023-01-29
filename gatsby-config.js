@@ -54,6 +54,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-clarity`,
+      options: {
+      clarity_project_id: `5np6844ypi`,
+
+      enable_on_dev_env: true
+      },
+   },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
