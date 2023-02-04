@@ -10,7 +10,7 @@ const Footer = () => {
         <SocialLinks />
 
         <FooterAttribution>
-          <a href="https://twitter.com/ShreyViradiya">Shrey Viradiya</a>
+          <a href="https://www.linkedin.com/in/shrey-viradiya/" target="_blank" rel="noopener noreferrer">Shrey Viradiya</a>
         </FooterAttribution>
       </FooterWrapper>
     </StyledFooter>

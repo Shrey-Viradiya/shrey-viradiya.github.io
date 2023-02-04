@@ -63,7 +63,7 @@ export const pageQuery = graphql`
         title
         profile_image {
           childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, formats: PNG, height: 400)
+            gatsbyImageData(placeholder: BLURRED, formats: PNG, height: 200)
           }
         }
       }

@@ -19,7 +19,7 @@ const SocialLinks = () => {
   const socialLinks = data.site.siteMetadata.socialLinks.map((link) => {
     return (
       <SocialLinkItem key={link.name}>
-        <a href={link.url}>{link.name}</a>
+        <a href={link.url}  target="_blank" rel="noopener noreferrer">{link.name}</a>
       </SocialLinkItem>
     );
   });
