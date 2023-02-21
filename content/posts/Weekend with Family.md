@@ -2,7 +2,6 @@
 title: Weekend with Family
 date: 2023-02-20
 tags:
-  - Random
   - Weekend
   - Family
   - Surprise
