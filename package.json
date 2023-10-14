@@ -26,6 +26,7 @@
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-remark": "^5.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
+    "gh-pages": "^6.0.0",
     "netlify-cms-app": "^2.15.72",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
@@ -59,5 +60,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  }
+  },
+  "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+  "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/Shrey-Viradiya/shrey-viradiya.github.io.git"
 }
