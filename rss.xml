@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Glass RSS Feed]]></title><description><![CDATA[Shrey Viradiya Blog]]></description><link>https://shrey-viradiya.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 May 2024 17:47:56 GMT</lastBuildDate><item><title><![CDATA[About Me]]></title><description><![CDATA[Hi, I’m Shrey Viradiya A technology analyst at Goldman Sachs, Bangalore.]]></description><link>https://shrey-viradiya.github.io/about/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/about/</guid><content:encoded>&lt;h1&gt;Hi, I’m Shrey Viradiya&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Glass RSS Feed]]></title><description><![CDATA[Shrey Viradiya Blog]]></description><link>https://shrey-viradiya.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 May 2024 17:54:02 GMT</lastBuildDate><item><title><![CDATA[About Me]]></title><description><![CDATA[Hi, I’m Shrey Viradiya A technology analyst at Goldman Sachs, Bangalore.]]></description><link>https://shrey-viradiya.github.io/about/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/about/</guid><content:encoded>&lt;h1&gt;Hi, I’m Shrey Viradiya&lt;/h1&gt;
 &lt;p&gt;A technology analyst at Goldman Sachs, Bangalore.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. If you want to contact me, just drop me a line at shreyviradiya@gmail.com]]></description><link>https://shrey-viradiya.github.io/contact/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
 &lt;p&gt;If you want to contact me, just drop me a line at &lt;a href=&quot;mailto:shreyviradiya@gmail.com&quot;&gt;shreyviradiya@gmail.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello Human]]></title><description><![CDATA[Hello Human So great of you to land on this page.]]></description><link>https://shrey-viradiya.github.io/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/</guid><content:encoded>&lt;h1&gt;Hello Human&lt;/h1&gt;
-&lt;p&gt;So great of you to land on this page.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Consuming Data From Coin Cap REST Endpoints and Websockets with Java]]></title><description><![CDATA[Introduction Consuming Data from APIs and WebSockets with Java and Kafka In the modern world of data-driven applications, the ability to…]]></description><link>https://shrey-viradiya.github.io/blog/CoinCapConsumer/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/blog/CoinCapConsumer/</guid><pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So great of you to land on this page.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Consuming Data From Coin Cap REST Endpoints and Websockets with Java]]></title><description><![CDATA[1. Introduction Consuming Data from APIs and WebSockets with Java and Kafka In the modern world of data-driven applications, the ability to…]]></description><link>https://shrey-viradiya.github.io/blog/CoinCapConsumer/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/blog/CoinCapConsumer/</guid><pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;1. Introduction&lt;/h1&gt;
 &lt;p&gt;Consuming Data from APIs and WebSockets with Java and Kafka&lt;/p&gt;
 &lt;p&gt;In the modern world of data-driven applications, the ability to efficiently consume data from various sources and process it is crucial. Technologies like Apache Kafka and Java have emerged as leading tools for handling such tasks due to their robustness, scalability, and reliability.&lt;/p&gt;
 &lt;p&gt;In this blog post, we will explore a practical application of these technologies through a project called CoinCapDataConsumer. This project, developed in Java and managed with Maven, consumes data from the CoinCap public APIs and WebSockets and puts it into a Kafka sink.&lt;/p&gt;
 &lt;p&gt;We will walk through the setup of the development environment, delve into the project structure and code, and discuss how to run the project. By the end of this post, you will have a solid understanding of how to build a data-consuming application using Java, Kafka, and Docker.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Techonologies Used&lt;/strong&gt;
-The revised list of technologies used in this project, after removing YAML, Jackson, and Apache Commons, is:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;2. Technologies Used&lt;/h1&gt;
+&lt;p&gt;The revised list of technologies used in this project, after removing YAML, Jackson, and Apache Commons, is:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Java: The main programming language used to develop the application.&lt;/li&gt;
 &lt;li&gt;Maven: A build automation tool used primarily for Java projects.&lt;/li&gt;
@@ -21,8 +18,6 @@ The revised list of technologies used in this project, after removing YAML, Jack
 &lt;li&gt;REST API: A set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.&lt;/li&gt;
 &lt;li&gt;Spotless: A code formatting plugin used in the project to ensure code consistency.&lt;/li&gt;
 &lt;li&gt;Log4j: A reliable, fast, and flexible logging framework (APIs) written in Java.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -53,9 +48,8 @@ The revised list of technologies used in this project, after removing YAML, Jack
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Understanding the Project Structure&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;3. Understanding the Project Structure&lt;/h1&gt;
 &lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;CoinCapDataConsumer&lt;/code&gt; project is structured in a way that follows standard Java project conventions. Here’s a brief overview of the key components:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -87,18 +81,17 @@ The revised list of technologies used in this project, after removing YAML, Jack
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;By understanding the structure of the project and the purpose of each component, you can better understand how the &lt;code class=&quot;language-text&quot;&gt;CoinCapDataConsumer&lt;/code&gt; application works.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Running the Project&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;4. Running the Project&lt;/h1&gt;
 &lt;p&gt;To run the &lt;code class=&quot;language-text&quot;&gt;CoinCapDataConsumer&lt;/code&gt; project, you would typically follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Build the Project&lt;/strong&gt;:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Since this is a Maven project, you can use the &lt;code class=&quot;language-text&quot;&gt;mvn clean install&lt;/code&gt; command in the terminal to build the project. This command cleans the target directory, compiles your code, runs any tests, and installs the packaged version of your project into your local repository.&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Run the Application&lt;/strong&gt;:
-After building the project, you can run the application. The main class is &lt;code class=&quot;language-text&quot;&gt;org.sv.data.App&lt;/code&gt;. You can run it directly from your IDE (IntelliJ IDEA) or from the terminal using the &lt;code class=&quot;language-text&quot;&gt;java -cp target/myproject-1.0-SNAPSHOT.jar org.sv.data.App&lt;/code&gt; command. Replace &lt;code class=&quot;language-text&quot;&gt;myproject-1.0-SNAPSHOT.jar&lt;/code&gt; with the actual name of your jar file.&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Run the Application&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After building the project, you can run the application. The main class is &lt;code class=&quot;language-text&quot;&gt;org.sv.data.App&lt;/code&gt;. You can run it directly from your IDE (IntelliJ IDEA) or from the terminal using the &lt;code class=&quot;language-text&quot;&gt;java -cp target/myproject-1.0-SNAPSHOT.jar org.sv.data.App&lt;/code&gt; command. Replace &lt;code class=&quot;language-text&quot;&gt;myproject-1.0-SNAPSHOT.jar&lt;/code&gt; with the actual name of your jar file.&lt;/p&gt;
 &lt;p&gt;Please note that you need to provide the path to the configuration file as an argument when running the &lt;code class=&quot;language-text&quot;&gt;App&lt;/code&gt; class. The configuration file is read in the &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; method of the &lt;code class=&quot;language-text&quot;&gt;App&lt;/code&gt; class:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token class-name&quot;&gt;ConfigObject&lt;/span&gt; applicationConfiguration &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;readConfigFromFile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;args&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;So, when running the application, you need to provide the path to the configuration file. For example, if you’re running the application from the terminal, the command might look like this:&lt;/p&gt;
@@ -108,52 +101,12 @@ After building the project, you can run the application. The main class is &lt;c
 &lt;li&gt;&lt;strong&gt;Check the Logs&lt;/strong&gt;: The application uses Log4j for logging. You can check the logs to see if the application is running as expected.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Remember to have your Kafka and Docker running as the application requires these services. I have used the bitnami kafka docker image to use kafka: &lt;a href=&quot;https://hub.docker.com/r/bitnami/kafka/&quot;&gt;https://hub.docker.com/r/bitnami/kafka/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;5. Conclusion&lt;/h1&gt;
 &lt;p&gt;Throughout this post, we’ve explored the &lt;code class=&quot;language-text&quot;&gt;CoinCapDataConsumer&lt;/code&gt; project, a Java application that consumes data from APIs and WebSockets and puts it into a Kafka sink. We’ve delved into the project’s structure, understanding the role of each component, and walked through the process of running the project.&lt;/p&gt;
 &lt;p&gt;We’ve seen how technologies like Java, Maven, Kafka, Docker, WebSocket, REST API, Spotless, Guava, and Log4j can be combined to create a robust and efficient data-consuming application. This project serves as a practical example of how these technologies can be used in real-world scenarios.&lt;/p&gt;
 &lt;p&gt;Whether you’re a beginner looking to learn more about data consumption or a seasoned developer interested in expanding your toolkit, we hope this post has provided valuable insights. As always, the best way to learn is by doing. So, don’t hesitate to clone the project, play around with the code, and experiment with different scenarios.&lt;/p&gt;
-&lt;p&gt;Remember, the journey of learning and improving as a developer is continuous. Keep exploring, keep learning, and keep coding!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Weekend with Family]]></title><description><![CDATA[In Ahmedabad right now. Just had a chill weekend with family in Rajkot, a city nearly 200 km far. I went to Rajkot after 8 years. It was a…]]></description><link>https://shrey-viradiya.github.io/blog/Weekend with Family/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/blog/Weekend with Family/</guid><pubDate>Mon, 20 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In Ahmedabad right now. Just had a chill weekend with family in Rajkot, a city nearly 200 km far. I went to Rajkot after 8 years. It was a surprise for everyone. Only my brother and sister-in-law knew.&lt;/p&gt;
-&lt;p&gt;Spending time together with family was fun. We had a family function so everyone was tired after 2 days. Two days passed like a couple of hours. Not making this blog a boring daily dairy story. But just wanted to write down, I feel staying away from the family can make us feel homesick. Yet, I did not go to my home town 😅😜. Home is where family is. So people, if you are reading it, spend time with your family. Give them a surprise.&lt;/p&gt;
-&lt;p&gt;“My sister slapped me because she wasn’t expecting me to wake her up from her nap, totally worth it 💛”&lt;/p&gt;
-&lt;h2&gt;Well, here is one photo I took from this small trip. 👇&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ccadb9841d780ac76ead736b7203ebd8/e5166/CarRajkot.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 133.3984375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABi1E6h5PNTC3IZtYlif/EAB0QAAEEAgMAAAAAAAAAAAAAAAEAAgMSBBEQITH/2gAIAQEAAQUCHuKzoxtKYwFRu1EbKyjlo6++dr//xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAwEBPwEj/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQAQEf/aAAgBAgEBPwEZt//EABsQAAIBBQAAAAAAAAAAAAAAAAABAhASITAx/9oACAEBAAY/AhyMqlq7o//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExEEFRYf/aAAgBAQABPyGeaG8EZsFiur8bljqKQX7lDQH2NYM7ruPAvZ//2gAMAwEAAgADAAAAEIMFj//EABgRAAIDAAAAAAAAAAAAAAAAAAARARAh/9oACAEDAQE/EJwKmf/EABcRAAMBAAAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QRdw//8QAHBABAAMBAQEBAQAAAAAAAAAAAQARITFBUXFh/9oACAEBAAE/EBg+x/cLvzso6hVsWrz8CMU+Fwve+f2Y3JhTDFYdF3AjGmx9H7BZ6bc6g5AmI/Gf/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Morning drive in Rajkot&quot;
-        title=&quot;Morning drive in Rajkot&quot;
-        src=&quot;/static/ccadb9841d780ac76ead736b7203ebd8/e5166/CarRajkot.jpg&quot;
-        srcset=&quot;/static/ccadb9841d780ac76ead736b7203ebd8/36dd4/CarRajkot.jpg 512w,
-/static/ccadb9841d780ac76ead736b7203ebd8/72e01/CarRajkot.jpg 1024w,
-/static/ccadb9841d780ac76ead736b7203ebd8/e5166/CarRajkot.jpg 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Tomorrow, I have a flight back to Bengaluru. Btw, I must tell you that Rajkot looks so beautiful and well-developed. It’s much smaller than Bangalore but more beautiful and developed.&lt;/p&gt;
-&lt;p&gt;Please feel free to give feedback and suggestions. Not sure where this blog will do. Always open to suggestions.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My First blog]]></title><description><![CDATA[Today, 15th January, 2023, after a long and active day with my friends, I took up this task to make this website deployment ready. Just a…]]></description><link>https://shrey-viradiya.github.io/blog/My First Blog/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/blog/My First Blog/</guid><pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today, 15th January, 2023, after a long and active day with my friends, I took up this task to make this website deployment ready.&lt;/p&gt;
+&lt;p&gt;Remember, the journey of learning and improving as a developer is continuous. Keep exploring, keep learning, and keep coding!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My First blog]]></title><description><![CDATA[Today, 15th January, 2023, after a long and active day with my friends, I took up this task to make this website deployment ready. Just a…]]></description><link>https://shrey-viradiya.github.io/blog/My First Blog/</link><guid isPermaLink="false">https://shrey-viradiya.github.io/blog/My First Blog/</guid><pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today, 15th January, 2023, after a long and active day with my friends, I took up this task to make this website deployment ready.&lt;/p&gt;
 &lt;h2&gt;Just a random image of KodaiKanal from my phone&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
